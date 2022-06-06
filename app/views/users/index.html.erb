@@ -1,0 +1,13 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Users</h1>
+
+<%= Date.today %>
+
+<div id="users">
+  <% @users.each do |user| %>
+    <%= render user %>
+    
+  <% end %>
+</div>
+
